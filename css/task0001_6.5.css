@@ -1,0 +1,14 @@
+.container{
+    background-color: red;
+    overflow: hidden;
+}
+
+.container .first,
+.second,
+.third{
+    width: 30px;
+    height: 30px;
+    border: 5px blue solid;
+    margin: 3px 10px;
+    float: left;
+}

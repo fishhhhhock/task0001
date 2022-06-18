@@ -1,0 +1,51 @@
+h1{
+    /* 设置字体颜色 */
+    color: blue;
+    /* 设置文字居中 */
+    text-align: center;
+    /* 设置字体粗细 */
+    font-weight: 29px;
+    /* 设置字体样式 :设置为斜体*/
+    font-style: italic;
+    /* 设置下划线效果 */
+    text-decoration: underline;
+    /*  */
+}
+
+h2{
+    font-size: 14px;
+}
+
+p{
+    font-size: 12px;
+    color: yellow;
+    background-color: black;
+    position: relative;
+}
+
+img{
+    border: 2px solid;
+}
+
+div{
+    width: 960px;
+    height: 20px;
+    background-color: red;
+    /* 第一种方法在整个页面居中 */
+    /* position: absolute; */
+    /* top:50%; */
+    /* left:50%; */
+    /* transform:translate(-50%,-50%);  */
+    /* 第二种方法页面居中 */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* 第三种 */
+    position: absolute;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* margin: 0 auto; */
+ } 

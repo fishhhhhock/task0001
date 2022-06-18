@@ -1,0 +1,40 @@
+.one{
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    float: left;
+
+}
+.three{
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    float: right;
+
+}
+.two{
+    height: 200px;
+    background-color: blue;
+}
+
+/* 第二种方法 */
+.box{
+    position: relative;
+}
+.left{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+}
+.right{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+}
+.center{
+    position: static;
+    margin-left: 300px ;
+    margin-right: 300px ;
+}
